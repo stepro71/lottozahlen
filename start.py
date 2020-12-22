@@ -1,5 +1,5 @@
 import streamlit as st
-from math import comb 
+import math
 import random
 with st.echo():
     st.title("Lottozahlen Generator")
