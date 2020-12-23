@@ -7,6 +7,7 @@ with st.echo():
     #import streamlit as st
     #from scipy.special import comb
     #import random
+    #uncomment first three lines
 
     st.title("Lottozahlen Generator")
     x = st.slider('Anzahl der Zahlen',max_value=100)
