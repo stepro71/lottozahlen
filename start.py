@@ -6,6 +6,7 @@ st.title("Lottozahlen Generator")
 st.write("Bis auf uninteressante Imports (3 Zeilen) ist das der ganze Code")
 
 with st.echo():
+    st.header("Generator")
     x = st.slider('Anzahl der Zahlen',max_value=100)
     y = st.slider('Wieviele Zahlen kann man setzen?',max_value=100)
     st.write( 'Anzahl der Möglichkeiten', comb(x,y))
@@ -15,4 +16,3 @@ with st.echo():
         list1 = sorted(random.sample(range(1,x), y))
         list2 = ' '.join(map(str, list1)) 
         st.write("" , list2)
-st.header("Generator")
