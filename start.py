@@ -2,13 +2,14 @@ import streamlit as st
 from scipy.special import comb
 import random
 
-st.title("Lottozahlen Generator")
-st.write("Folgende Imports verwenden:")
-#import streamlit as st
-#from scipy.special import comb
-#import random
-
 with st.echo():
+
+    #import streamlit as st
+    #from scipy.special import comb
+    #import random
+
+    st.title("Lottozahlen Generator")
+    st.write("Folgende Imports verwenden:")
     st.header("Generator")
     x = st.slider('Anzahl der Zahlen',max_value=100)
     y = st.slider('Wieviele Zahlen kann man setzen?',max_value=100)
