@@ -4,9 +4,9 @@ import random
 
 st.title("Lottozahlen Generator")
 st.write("Folgende Imports verwenden:")
-st.write("import streamlit as st")
-st.write("from scipy.special import comb")
-st.write("import random")
+#import streamlit as st
+#from scipy.special import comb
+#import random
 
 with st.echo():
     st.header("Generator")
