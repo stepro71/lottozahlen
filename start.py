@@ -3,7 +3,10 @@ from scipy.special import comb
 import random
 
 st.title("Lottozahlen Generator")
-st.write("Bis auf uninteressante Imports (3 Zeilen) ist das der ganze Code")
+st.write("Folgende Imports verwenden:")
+st.write("import streamlit as st")
+st.write("from scipy.special import comb")
+st.write("import random")
 
 with st.echo():
     st.header("Generator")
